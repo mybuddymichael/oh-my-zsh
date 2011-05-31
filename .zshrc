@@ -1,14 +1,14 @@
-	# Path to your oh-my-zsh configuration.
-	export ZSH=$HOME/.oh-my-zsh
+# Path to your oh-my-zsh configuration.
+export ZSH=$HOME/.zsh
 
-	# Set name of the theme to load.
-	# Look in ~/.oh-my-zsh/themes/
-	# Optionally, if you set this to "random", it'll load a random theme each
-	# time that oh-my-zsh is loaded.
-	export ZSH_THEME="michael_"
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+export ZSH_THEME="michael_"
 
-	# Set to this to use case-sensitive completion
-	# export CASE_SENSITIVE="true"
+# Set to this to use case-sensitive completion
+# export CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
 # export DISABLE_AUTO_UPDATE="true"
