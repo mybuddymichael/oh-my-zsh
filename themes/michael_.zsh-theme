@@ -27,7 +27,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN=":%{$GIT_CLEAN_COLOR%}✔"
 
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[green]%}✝%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%}⚑%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[yellow]%}x%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%}x%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%}➜%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[red]%}═%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg_bold[cyan]%}?%{$reset_color%}"
