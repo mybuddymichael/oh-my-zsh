@@ -5,7 +5,7 @@ setopt promptsubst
 
 autoload -U add-zsh-hook
 
-PROMPT_SUCCESS_COLOR=$fg[foreground]
+PROMPT_SUCCESS_COLOR=$fg[cyan]
 PROMPT_FAILURE_COLOR=$fg[black]
 PROMPT_VCS_INFO_COLOR=$FG[242]
 PROMPT_PROMPT=$fg[cyan]
@@ -14,7 +14,7 @@ GIT_CLEAN_COLOR=$fg[green]
 GIT_PROMPT_INFO=$fg[magenta]
 RVM_COLOR=$fg[red]
 
-PROMPT=$'%{$PROMPT_SUCCESS_COLOR%}%~%{$reset_color%} %{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status)%{$reset_color%} %{$RVM_COLOR%}$(rvm_prompt_info)%{$reset_color%} \n%{$PROMPT_PROMPT%}⍟%{$reset_color%} '
+PROMPT=$'%{$RVM_COLOR%}$(rvm_prompt_info)%{$reset_color%} %{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status)%{$reset_color%} %{$PROMPT_SUCCESS_COLOR%}%~%{$reset_color%} \n%{$PROMPT_PROMPT%}⍟%{$reset_color%} '
 
 RPROMPT=$'%{$PROMPT_FAILURE_COLOR%}%n@%m%{$reset_color%}'
 
