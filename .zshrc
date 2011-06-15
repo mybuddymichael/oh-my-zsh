@@ -87,7 +87,6 @@ source $ZSH/oh-my-zsh.sh
     alias gd='git diff'
     alias gdc='git diff --cached'
     alias gc='git commit'
-    alias gca='git commit -a'
     alias gb='git branch'
     alias gco='git checkout'
     alias gsub='git submodule'
