@@ -76,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Set several Git-related shortcuts.
 
-    [[ -L `brew --prefix`/bin/hub ]] && alias git=hub
+    [[ -L `brew --prefix`/bin/hub ]] && function git(){hub "$@"}
     alias gs='git status'
     alias gss='git status --short'
     alias gl='git log --decorate --all'
