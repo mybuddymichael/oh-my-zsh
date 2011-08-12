@@ -75,7 +75,6 @@ source $ZSH/oh-my-zsh.sh
     alias m=mvim
     alias r=ruby
     alias md5='openssl md5'
-    alias mamp='open /Applications/MAMP/MAMP.app'
 
 
 # Set several Git-related shortcuts.
