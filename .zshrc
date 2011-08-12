@@ -46,6 +46,10 @@ source $ZSH/oh-my-zsh.sh
 
     export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 
+# Add rbenv to PATH
+
+    export PATH="$HOME/.rbenv/bin:$PATH"
+
 
 # Make an easy command to reload the profile and bashrc file.
 
