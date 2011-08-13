@@ -46,6 +46,7 @@ source $ZSH/oh-my-zsh.sh
 
     export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 
+
 # Add rbenv to PATH
 
     export PATH="$HOME/.rbenv/bin:$PATH"
@@ -103,4 +104,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Load Ruby Version Manager.
 
-    #[[ -s $HOME/.rvm/scripts/rvm ]] && . $HOME/.rvm/scripts/rvm
+    [[ -s $HOME/.rvm/scripts/rvm ]] && . $HOME/.rvm/scripts/rvm
