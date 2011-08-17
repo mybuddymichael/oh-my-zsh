@@ -50,6 +50,7 @@ source $ZSH/oh-my-zsh.sh
 # Add rbenv to PATH
 
     export PATH="$HOME/.rbenv/bin:$PATH"
+    eval "$(rbenv init -)"
 
 
 # Make an easy command to reload the profile and bashrc file.
