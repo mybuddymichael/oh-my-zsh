@@ -21,7 +21,7 @@ export ZSH_THEME="michael_"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git compleat rvm brew)
+plugins=(git compleat brew)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,8 +100,3 @@ source $ZSH/oh-my-zsh.sh
 
     [[ -s $HOME/.secrets ]] && . $HOME/.secrets
     [[ -s $HOME/workenv/bash/colors.sh ]] && . $HOME/workenv/bash/colors.sh
-
-
-# Load Ruby Version Manager.
-
-    [[ -s $HOME/.rvm/scripts/rvm ]] && . $HOME/.rvm/scripts/rvm
