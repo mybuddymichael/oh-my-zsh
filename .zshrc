@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
     alias m=mvim
     alias r=ruby
+    alias rv='rbenv version'
     alias be='bundle exec'
     alias md5='openssl md5'
 
